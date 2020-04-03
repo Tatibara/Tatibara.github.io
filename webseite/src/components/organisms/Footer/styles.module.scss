@@ -1,0 +1,26 @@
+.footer {
+  height: 100px;
+  background-color: rgb(26, 49, 87);
+  color: white;
+  font-size: 12px;
+  padding: 30px 20px;
+}
+
+.copyright {
+  color: white;
+  text-align: right;
+}
+
+.footerWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialLinks {
+    font-size: 30px;
+}
+
+.links {
+   text-decoration: underline;
+}

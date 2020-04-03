@@ -1,0 +1,27 @@
+.content {
+  display: flex;
+  height: 400px;
+  width: 100%;
+}
+
+.boxLeft {
+  background-color: rgb(26, 49, 87);
+  width: 150px;
+}
+
+.boxCenter {
+  background-color: rgb(238, 235, 235);
+  flex-grow: 1;
+}
+
+.boxRight {
+  background-image: url(./tatiana.jpg);
+  background-position: left;
+  background-size: cover;
+  width: 620px;
+}
+
+.title {
+    margin: 100px 20px;
+    color:  rgb(26, 49, 87);
+}
