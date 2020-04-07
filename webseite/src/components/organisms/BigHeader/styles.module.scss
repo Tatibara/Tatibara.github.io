@@ -1,0 +1,37 @@
+$color-primary-light: #ccc;
+$color-header-text: #fff;
+
+.header {
+  height: 100vh;
+  // background-image: linear-gradient(to right bottom, rgba(103, 103, 103, 0.8), rgba(204, 204, 204, 0.2)), url(./programming.jpg);
+  // background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(./programming.jpg);
+  //background-image: linear-gradient(to right bottom, rgba(76, 75, 75, 0.6), rgba(0, 0, 0, 0.2)), url(/static/media/programming.2c2c1efa.jpg);
+  background-image: linear-gradient(to right bottom, rgba(60, 59, 59, 0.69), rgba(113, 112, 112, 0.78)), url(/static/media/programming.2c2c1efa.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+.headerTextWrapper {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  // transform: translate(-20%, -40%);
+  transform: translate(-0%, -70%);
+  text-align: center;
+  max-width: 500px;
+}
+
+.headerText {
+  font-family: 'Dancing Script';
+  font-size: 85px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 80px;
+}
+
+.headerSubtext {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: $color-header-text;
+    font-weight: 600;
+}

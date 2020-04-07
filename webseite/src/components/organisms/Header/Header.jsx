@@ -8,8 +8,8 @@ import styles from './styles.module.scss';
 const Header = () => (
   <div className={styles.logoWrapper}>
   <Link to={NavigationUrls.homePageUrl} >
-    <h1 className={styles.logoText}>Baradari Solutions</h1>
-    <span className={styles.logoSubtext}>Web Frontend Architektur & Trainings</span>
+    <h1 className={styles.logoText}>BS</h1>
+    <span className={styles.logoSubtext}>be smart</span>
     </Link>
   </div>
 );

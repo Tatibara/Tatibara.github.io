@@ -1,17 +1,22 @@
+$color-header-text: #fff;
+// rgb(26, 49, 87);
 .logoWrapper {
-  /*max-width: 1000px;*/
-    margin: 20px;
+  padding: 15px 20px;
+  position: relative;
+    
 }
 
 .logoText {
   font-family: 'Dancing Script';
-  font-size: 40px;
-  color: rgb(26, 49, 87);
+  font-size: 35px;
+  color: $color-header-text;
   font-weight: 600;
+  line-height: 30px;
 }
 
 .logoSubtext {
-    font-size: 13px;
+    font-size: 8px;
     text-transform: uppercase;
-    color: rgb(26, 49, 87);
+    color: $color-header-text;
+    position: absolute;   
 }
