@@ -1,9 +1,11 @@
 $color-header-text: #fff;
 // rgb(26, 49, 87);
-.logoWrapper {
+.headerWrapper {
   padding: 15px 20px;
   position: relative;
-    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logoText {
@@ -20,3 +22,27 @@ $color-header-text: #fff;
     color: $color-header-text;
     position: absolute;   
 }
+
+.socialLinks {
+  font-size: 17px;
+  color: $color-header-text;
+ 
+  > a {
+    padding: 0 10px;
+  }
+}
+
+.menu {
+  color: $color-header-text;
+	list-style: none;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  
+  li {
+    display: inline;
+    padding: 0 20px;
+	}
+}
+
