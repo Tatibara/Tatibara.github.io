@@ -14,7 +14,7 @@ const HomePage = () => (
     <BigHeader />
 
     <div className="container">
-    <PassionSection />
+      <PassionSection />
 
       <h2>Meine Qualifikationen!</h2>
       <h3>Schwerpunkte</h3>

@@ -1,12 +1,12 @@
-.info {
-  border-color: #ffffff;
-    border-width: 0px;
-    background-color: #faf9f8;
-    box-sizing: content-box;
-    height: 80px;
-    width: 80px;
-    line-height: 80px;
-    border-radius: 50%;
-    color: #6b409b;
-    font-size: 40px;
+.sectionHeader{
+  text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.line {
+  width: 50px;
+  border-bottom: 2px solid #d6a449c4;
+  margin: 10px auto;
 }
