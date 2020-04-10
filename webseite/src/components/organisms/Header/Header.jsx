@@ -15,6 +15,7 @@ const Header = () => (
       <li>Home</li>
       <li>Passionen</li>
       <li>Qualifikationen</li>
+      <li>Über mich</li>
       <li>Kontakt</li>
     </ul>
     <div className={styles.socialLinks}>

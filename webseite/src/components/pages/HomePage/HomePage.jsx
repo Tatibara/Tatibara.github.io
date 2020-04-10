@@ -1,5 +1,6 @@
 import React from 'react';
 
+import AboutMeSection from '../../organisms/AboutMeSection/AboutMeSection';
 import BigHeader from '../../organisms/BigHeader/BigHeader';
 import ContactSection from '../../organisms/ContactSection/ContactSection';
 import PassionSection from '../../organisms/PassionSection/PassionSection';
@@ -14,6 +15,7 @@ const HomePage = () => (
 
     <PassionSection />
     <QualifikationSection />
+    <AboutMeSection />
     <ContactSection />
 
     { /* <h3>Empfehlungen</h3> */}
