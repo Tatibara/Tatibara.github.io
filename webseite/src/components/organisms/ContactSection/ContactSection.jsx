@@ -3,7 +3,7 @@ import React from 'react';
 import styles from './styles.module.scss';
 
 const ContactSection = () => (
-  <section className={`${styles.sectionWrapper} container`}>
+  <section className={`${styles.sectionWrapper} container`} id="contact">
     <h2 className={styles.sectionHeader}>
       Kontakt
     </h2>

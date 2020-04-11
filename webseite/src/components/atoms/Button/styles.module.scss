@@ -1,0 +1,29 @@
+.btn {
+  &,
+  &:link,
+  &:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+    transition: all .2s;
+    position: relative;
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 600;
+
+      //Change for the <button> element
+      border: none;
+      cursor: pointer;
+  }
+  
+  &Yellow {
+      background-color: #d1a327;
+      color: #fff;
+
+      &:hover {
+          background-color: #E1C240;
+          color: #000;
+      }
+  }
+}

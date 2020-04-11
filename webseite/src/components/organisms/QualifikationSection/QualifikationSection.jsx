@@ -5,6 +5,7 @@ import IosConstructOutline from 'react-ionicons/lib/IosConstructOutline';
 import IosSchoolOutline from 'react-ionicons/lib/IosSchoolOutline';
 import IosTrendingUp from 'react-ionicons/lib/IosTrendingUp';
 
+import Button from '../../atoms/Button/Button';
 import SkillChart from '../../atoms/SkillChart/SkillChart';
 import Focuses from '../../molecules/Focuses/Focuses';
 import styles from './styles.module.scss';
@@ -64,6 +65,10 @@ const QualifikationSection = () => (
           <Focuses list={educations} />
         </div>
       </div>
+      <div style={{ textAlign: 'center' }}>
+        <Button>Kontaktienren Sie mich</Button>
+      </div>
+
     </div>
   </section>
 );

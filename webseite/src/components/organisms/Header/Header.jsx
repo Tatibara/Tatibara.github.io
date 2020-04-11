@@ -3,6 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import NavigationUrls from '../../../routers/NavigationUrls';
+import Button from '../../atoms/Button/Button';
 import styles from './styles.module.scss';
 
 const Header = () => (
@@ -16,7 +17,7 @@ const Header = () => (
       <li>Passionen</li>
       <li>Qualifikationen</li>
       <li>Über mich</li>
-      <li>Kontakt</li>
+      <li><Button>Kontakt</Button></li>
     </ul>
     <div className={styles.socialLinks}>
       <span className={styles.telefon}>+49 (0)176 38667325</span>

@@ -8,7 +8,7 @@ import LogoJavascript from 'react-ionicons/lib/LogoJavascript';
 import styles from './styles.module.scss';
 
 const PassionSection = () => (
-  <section className={`${styles.sectionWrapper} container`}>
+  <section id="passions" className={`${styles.sectionWrapper} container`}>
     <h2 className={styles.sectionHeader}>
       Passionen
     </h2>

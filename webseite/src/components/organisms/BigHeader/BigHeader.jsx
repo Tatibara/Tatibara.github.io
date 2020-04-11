@@ -1,6 +1,7 @@
 import React from 'react';
 
 import IosArrowDropdown from 'react-ionicons/lib/IosArrowRoundDown';
+import { HashLink } from 'react-router-hash-link';
 
 import Header from '../Header/Header';
 import styles from './styles.module.scss';
@@ -14,7 +15,9 @@ const BigHeader = () => (
     </div>
     <div className={styles.downArrowWrapper}>
       <span className={styles.goDownText}>nach unten</span>
-      <IosArrowDropdown fontSize="60px" color="#ddcaaa" />
+      <HashLink smooth to="#passions">
+        <IosArrowDropdown fontSize="60px" color="#ddcaaa" />
+      </HashLink>
     </div>
 
   </header>
