@@ -26,16 +26,16 @@ const QualifikationSection = () => (
           <h3>Schwerpunkte</h3>
         </div>
         <p className={styles.left}>
-          <SkillChart size="350px">
+          <SkillChart size="370px">
             JavaScript / TypeScript
           </SkillChart>
-          <SkillChart size="350px">
+          <SkillChart size="330px">
             React + Ecosystem
           </SkillChart>
-          <SkillChart size="200px">
+          <SkillChart size="190px">
             Node.js / GraphQL
           </SkillChart>
-          <SkillChart size="350px">
+          <SkillChart size="370px">
             CSS3 / HTML5
           </SkillChart>
           <br />
