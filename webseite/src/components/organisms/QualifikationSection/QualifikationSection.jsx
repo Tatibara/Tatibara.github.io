@@ -11,7 +11,7 @@ import styles from './styles.module.scss';
 
 const skills = ['Responsive Design', 'Wartbarer und Skalierbarer Code', 'Cross-Browser-Kompatibilität', 'Optimierungstechniken', 'Unit Testing'];
 const experiances = ['10+ in der Softwareentwicklung', '7 in der Frontend-Entwicklung', '3 mit React und dessen Ecosystem'];
-const educations = ['Wirtschaftsinformatik, Diplom', 'Informatik, Bachelor of Science'];
+const educations = ['Diplom-Wirtschaftsinformatikerin', 'Bachelor of Science Informatik'];
 
 const QualifikationSection = () => (
   <section className={styles.sectionWrapper}>
