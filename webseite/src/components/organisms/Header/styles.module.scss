@@ -23,16 +23,8 @@ $color-header-text: #fff;
     position: absolute;   
 }
 
-.socialLinks {
-  font-size: 17px;
-  color: $color-header-text;
- 
-  > a {
-    padding: 0 10px;
-  }
-}
-
 .telefon {
+  color: $color-header-text;
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 1px;

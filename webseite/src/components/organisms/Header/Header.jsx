@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 import NavigationUrls from '../../../routers/NavigationUrls';
 import Button from '../../atoms/Button/Button';
+import SocialLinks from '../../molecules/SocialLinks/SocialLinks';
 import styles from './styles.module.scss';
 
 const Header = () => (
@@ -19,18 +20,11 @@ const Header = () => (
       <li>Über mich</li>
       <li><Button>Kontakt</Button></li>
     </ul>
-    <div className={styles.socialLinks}>
+    <div>
       <span className={styles.telefon}>+49 (0)176 38667325</span>
-      <a href="https://www.xing.com/profile/Tatiana_Baradari/" rel="noopener noreferrer" target="_blank">
-        <span className="fab fa-xing" />
-      </a>
-      <a href="https://www.linkedin.com/in/tatiana-baradari/" rel="noopener noreferrer" target="_blank">
-        <span className="fab fa-linkedin-in" />
-      </a>
-      <a href="https://github.com/tatibara" rel="noopener noreferrer" target="_blank">
-        <span className="fab fa-github" />
-      </a>
+      <SocialLinks color="#fff" />
     </div>
+
   </div>
 );
 
