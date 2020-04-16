@@ -6,7 +6,7 @@ $color-header-text: #fff;
   // background-image: linear-gradient(to right bottom, rgba(103, 103, 103, 0.8), rgba(204, 204, 204, 0.2)), url(./programming.jpg);
   // background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(./programming.jpg);
   //background-image: linear-gradient(to right bottom, rgba(76, 75, 75, 0.6), rgba(0, 0, 0, 0.2)), url(/static/media/programming.2c2c1efa.jpg);
-  // background-image: linear-gradient(to right bottom, rgba(60, 59, 59, 0.69), rgba(113, 112, 112, 0.78)), url(./programming.jpg);
+  //background-image: linear-gradient(to right bottom, rgba(60, 59, 59, 0.69), rgba(113, 112, 112, 0.78)), url(./programming.jpg);
   background-image: linear-gradient(to right bottom, rgba(60, 59, 59, 0.69), rgba(113, 112, 112, 0.78)), url(./DSC03096.jpg);
   background-size: cover;
   background-position: top;
@@ -36,9 +36,9 @@ $color-header-text: #fff;
   color: #fff;
   // display: block;
   font-size: 11px;
-    letter-spacing: 2px;
-    font-weight: 600;
-    text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .headerText {
@@ -50,9 +50,9 @@ $color-header-text: #fff;
 }
 
 .headerSubtext {
-    font-size: 12px;
-    text-transform: uppercase;
-    color: $color-header-text;
-    font-weight: 600;
-    letter-spacing: 1px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: $color-header-text;
+  font-weight: 600;
+  letter-spacing: 1px;
 }

@@ -10,16 +10,27 @@ import SkillChart from '../../atoms/SkillChart/SkillChart';
 import Focuses from '../../molecules/Focuses/Focuses';
 import styles from './styles.module.scss';
 
-const skills = ['Responsive Design', 'Wartbarer und Skalierbarer Code', 'Cross-Browser-Kompatibilität', 'Optimierungstechniken', 'Unit Testing'];
-const experiances = ['10+ in der Softwareentwicklung', '7 in der Frontend-Entwicklung', '3 mit React und dessen Ecosystem'];
-const educations = ['Diplom-Wirtschaftsinformatikerin', 'Bachelor of Science Informatik'];
+const skills = [
+  'Responsive Design',
+  'Wartbarer und Skalierbarer Code',
+  'Cross-Browser-Kompatibilität',
+  'Optimierungstechniken',
+  'Unit Testing',
+];
+const experiances = [
+  '10+ in der Softwareentwicklung',
+  '7 in der Frontend-Entwicklung',
+  '3 mit React und dessen Ecosystem',
+];
+const educations = [
+  'Diplom-Wirtschaftsinformatikerin',
+  'Bachelor of Science Informatik',
+];
 
 const QualifikationSection = () => (
-  <section className={styles.sectionWrapper}>
+  <section id="qualifications" className={styles.sectionWrapper}>
     <div className="container">
-      <h2 className={styles.sectionHeader}>
-        Qualifikationen
-      </h2>
+      <h2 className={styles.sectionHeader}>Qualifikationen</h2>
       <div className={styles.line} />
       <div className={styles.wrapper}>
         <div className={styles.right}>
@@ -27,18 +38,10 @@ const QualifikationSection = () => (
           <h3>Schwerpunkte</h3>
         </div>
         <p className={styles.left}>
-          <SkillChart size="370px">
-            JavaScript / TypeScript
-          </SkillChart>
-          <SkillChart size="330px">
-            React + Ecosystem
-          </SkillChart>
-          <SkillChart size="190px">
-            Node.js / GraphQL
-          </SkillChart>
-          <SkillChart size="370px">
-            CSS3 / HTML5
-          </SkillChart>
+          <SkillChart size="370px">JavaScript / TypeScript</SkillChart>
+          <SkillChart size="330px">React + Ecosystem</SkillChart>
+          <SkillChart size="190px">Node.js / GraphQL</SkillChart>
+          <SkillChart size="370px">CSS3 / HTML5</SkillChart>
           <br />
           <Focuses list={skills} />
         </p>
@@ -52,7 +55,6 @@ const QualifikationSection = () => (
         <div className={styles.left}>
           <Focuses list={experiances} />
         </div>
-
       </div>
 
       <div className={styles.wrapper}>
@@ -68,7 +70,6 @@ const QualifikationSection = () => (
       <div style={{ textAlign: 'center' }}>
         <Button>Kontaktienren Sie mich</Button>
       </div>
-
     </div>
   </section>
 );

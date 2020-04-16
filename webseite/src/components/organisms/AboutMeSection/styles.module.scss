@@ -32,10 +32,17 @@
 .aboutMe {
   font-size: 13px;
   letter-spacing: .5px;
-  margin: 30px;
-  text-align: center;
+  margin: 0 100px;
+  text-align: left;
 
   & > p {
-    margin: 5px 0;
+    margin: 10px 0;
   }
+}
+
+.var1 {
+  display: block;
+}
+.var2 {
+  display: none;
 }

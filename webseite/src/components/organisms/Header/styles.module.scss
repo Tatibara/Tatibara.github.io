@@ -1,4 +1,5 @@
 $color-header-text: #fff;
+
 // rgb(26, 49, 87);
 .headerWrapper {
   padding: 15px 20px;
@@ -17,10 +18,11 @@ $color-header-text: #fff;
 }
 
 .logoSubtext {
-    font-size: 8px;
-    text-transform: uppercase;
-    color: $color-header-text;
-    position: absolute;   
+  font-size: 8px;
+  color: $color-header-text;
+  position: absolute;
+  font-size: 8px;
+  letter-spacing: .5px;
 }
 
 .telefon {
@@ -34,15 +36,20 @@ $color-header-text: #fff;
 
 .menu {
   color: $color-header-text;
-	list-style: none;
+  list-style: none;
   text-transform: uppercase;
   font-size: 11px;
   letter-spacing: 2px;
   font-weight: 600;
-  
+
   li {
     display: inline;
     padding: 0 20px;
-	}
-}
 
+    a.link:hover {
+      border-bottom: 2px solid #ddcaaa;
+      padding-bottom: 5px;
+      color: #fff;
+    }
+  }
+}
