@@ -37,14 +37,14 @@ const QualifikationSection = () => (
           <IosConstructOutline fontSize="60px" color="#d1a327" />
           <h3>Schwerpunkte</h3>
         </div>
-        <p className={styles.left}>
+        <div className={styles.left}>
           <SkillChart size="370px">JavaScript / TypeScript</SkillChart>
           <SkillChart size="330px">React + Ecosystem</SkillChart>
           <SkillChart size="190px">Node.js / GraphQL</SkillChart>
           <SkillChart size="370px">CSS3 / HTML5</SkillChart>
           <br />
           <Focuses list={skills} />
-        </p>
+        </div>
       </div>
       <div className={styles.wrapper}>
         <div className={styles.right}>

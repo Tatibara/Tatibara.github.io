@@ -22,14 +22,14 @@ const AboutMeSection = () => (
             In meiner Karier habe ich Startups, klein, mittelständige
             und große Unternehmen unterstütz.
           </p>
-          <p>
+          <div>
             Bei mir sind Sie richtig bei
             <Focuses list={
               ['Neuentwicklung mit React Best Practices',
                 'Migration von bestehenden Lösungen in das React Ecosystem',
                 'React Mentoring']
           } />
-          </p>
+          </div>
           <p>
             Außerdem verfüge ich über ein breites Experten-Netzwerk von Designer
             bis System Architekten.

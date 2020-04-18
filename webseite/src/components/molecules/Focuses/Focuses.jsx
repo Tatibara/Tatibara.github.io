@@ -7,7 +7,7 @@ import styles from './styles.module.scss';
 const Focuses = ({ list }) => (
   <ul className={styles.wrapper}>
     {list.map((item) => (
-      <li>
+      <li key={item}>
         <MdCode fontSize="10px" color="#d1a327" />
         {' '}
         {item}
