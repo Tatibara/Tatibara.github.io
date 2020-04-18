@@ -1,8 +1,9 @@
 import React from 'react';
 
 import AboutMeSection from '../../organisms/AboutMeSection/AboutMeSection';
-import BigHeader from '../../organisms/BigHeader/BigHeader';
 import ContactSection from '../../organisms/ContactSection/ContactSection';
+import Header from '../../organisms/Header/Header';
+import HomeSection from '../../organisms/HomeSection/HomeSection';
 import PassionSection from '../../organisms/PassionSection/PassionSection';
 import QualifikationSection
   from '../../organisms/QualifikationSection/QualifikationSection';
@@ -10,9 +11,8 @@ import BasicTemplate from '../../templates/BasicTemplate/BasicTemplate';
 
 const HomePage = () => (
   <BasicTemplate>
-    <BigHeader />
-
-
+    <Header />
+    <HomeSection />
     <PassionSection />
     <QualifikationSection />
     <AboutMeSection />

@@ -3,12 +3,10 @@ import React from 'react';
 import IosArrowDropdown from 'react-ionicons/lib/IosArrowRoundDown';
 import { HashLink } from 'react-router-hash-link';
 
-import Header from '../Header/Header';
 import styles from './styles.module.scss';
 
 const BigHeader = () => (
-  <header className={styles.header}>
-    <Header />
+  <header className={styles.header} id="home">
     <div className={styles.headerTextWrapper}>
       <h1 className={styles.headerText}>Baradari Solutions</h1>
       <span className={styles.headerSubtext}>Web Frontend Architektur & Trainings</span>
