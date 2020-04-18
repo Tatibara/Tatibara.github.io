@@ -1,8 +1,14 @@
+@import '../../../scss/variables-mixins/variables-mixins';
+
 .socialLinks {
   font-size: 17px;
   // color: $color-header-text;
  
   > a {
     padding: 0 10px;
+
+    @include breakpoint($breakpointM) {
+      padding: 0 5px;
+    }
   }
 }

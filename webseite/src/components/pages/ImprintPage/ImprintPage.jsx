@@ -3,14 +3,17 @@ import React from 'react';
 
 import BasicHeader from '../../organisms/BasicHeader/BasicHeader';
 import BasicTemplate from '../../templates/BasicTemplate/BasicTemplate';
+import styles from './styles.module.scss';
 
 const ImprintPage = () => {
   window.scrollTo(0, 0);
   return (
     <BasicTemplate>
       <BasicHeader />
-      <div className="container">
-        <h1>Impressum</h1>
+      <div className={`container ${styles.sectionWrapper}`}>
+
+        <h1 className={styles.sectionHeader}>Impressum</h1>
+        <div className={styles.line} />
 
         <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
         <p>
