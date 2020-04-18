@@ -62,7 +62,9 @@ const Header = () => {
         </li>
       </ul>
       <div>
-        <span className={styles.telefon}>+49 (0)176 38667325</span>
+        <span className={styles.telefon}>
+          <a href="tel:+4917638667325">+49 (0)176 38667325</a>
+        </span>
         <SocialLinks color={navBackground ? '#000' : '#fff'} />
       </div>
     </div>

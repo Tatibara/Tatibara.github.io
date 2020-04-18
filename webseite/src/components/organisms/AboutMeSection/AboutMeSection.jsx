@@ -15,15 +15,10 @@ const AboutMeSection = () => (
         <div className={styles.aboutMe}>
           <p>Hallo, Ich bin Tatiana.</p>
           <p>
-            Ich bin eine Senior Frontend Entwicklerin mit Expertise in React.
-            <br />
-            Seit Juni 2017 bin ich eine Freelancerin.
-            <br />
-            In meiner Karier habe ich Startups, klein, mittelständige
-            und große Unternehmen unterstütz.
+            Ich bin eine freiberufliche Frontend Entwicklerin mit Expertise in React.
           </p>
           <div>
-            Bei mir sind Sie richtig bei
+            Bei mir sind Sie richtig für
             <Focuses list={
               ['Neuentwicklung mit React Best Practices',
                 'Migration von bestehenden Lösungen in das React Ecosystem',
@@ -31,16 +26,16 @@ const AboutMeSection = () => (
           } />
           </div>
           <p>
-            Außerdem verfüge ich über ein breites Experten-Netzwerk von Designer
-            bis System Architekten.
+            Außerdem verfüge ich über ein breites Experten-Netzwerk, das alles von Designer
+            bis System Architekten beinhaltet.
           </p>
           <p>
             Ich liebe Berlin. Ich liebe es grün. Ins Büro komme ich mit dem Fahrrad und ich laufe
-            durch die Stadt sehr gern.
+            sehr gerne durch die Stadt.
           </p>
           <p>
             Seit Januar 2020 bin ich Mentorin im Frontend Engineering Programm
-            der FrauenLoop gUG geworden. Ich bin sehr stolz die Frauen in IT
+            der FrauenLoop gUG geworden. Ich bin sehr stolz andere Frauen in der IT
             unterstützen zu dürfen!
           </p>
         </div>

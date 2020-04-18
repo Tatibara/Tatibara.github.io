@@ -1,3 +1,5 @@
+@import '../../../scss/variables-mixins/variables-mixins';
+
 .sectionWrapper {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -20,11 +22,20 @@
   display: flex;
   justify-content: space-around;
   margin: 60px 0;
+  @include breakpoint($breakpointM) {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
 }
 
 .element {
   max-width: 230px;
   text-align: center;
+
+  @include breakpoint($breakpointM) {
+    margin: 30px;
+  }
   
   > h3 {
     text-transform: uppercase;

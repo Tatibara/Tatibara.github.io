@@ -10,10 +10,6 @@ const Footer = () => (
     <div className={styles.footerWrapper}>
       <span>&copy; Copyright 2020 Baradari Solutions - Tatiana Baradari</span>
       <div className={styles.links}>
-        <Link to={NavigationUrls.imprintPageUrl}>Datenschutz</Link>
-        {' '}
-        |
-        {' '}
         <Link to={NavigationUrls.imprintPageUrl}>Impressum</Link>
       </div>
     </div>

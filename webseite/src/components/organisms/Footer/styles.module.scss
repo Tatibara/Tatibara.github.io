@@ -1,3 +1,5 @@
+@import '../../../scss/variables-mixins/variables-mixins';
+
 .footer {
   background-color: #ddcbaa;
   padding: 20px;
@@ -10,15 +12,23 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @include breakpoint($breakpointM) {
+      flex-direction: column;
+      text-align: center;
+      max-width: 250px;
+      margin: auto;
+    }
 }
 
 .links {
+  @include breakpoint($breakpointM) {
+    margin-top: 20px;
+  }
   > a{
     text-decoration: underline;
   }
 
   > a:hover {
     color: #a36503;
- 
   }
 }

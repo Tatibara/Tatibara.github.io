@@ -1,0 +1,12 @@
+
+// we are using mobile-first approach
+// usecase of this mixin:
+// @include breakpoint($breakpoint-l) {
+//   border-left: 1px solid $brand-color-secondary-1;
+//   display: block;
+// }
+@mixin breakpoint($breakpoint) {
+  @media only screen and (max-width: $breakpoint) {
+    @content
+  }
+}

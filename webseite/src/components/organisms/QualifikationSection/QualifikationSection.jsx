@@ -38,10 +38,10 @@ const QualifikationSection = () => (
           <h3>Schwerpunkte</h3>
         </div>
         <div className={styles.left}>
-          <SkillChart size="370px">JavaScript / TypeScript</SkillChart>
-          <SkillChart size="330px">React + Ecosystem</SkillChart>
+          <SkillChart size="310px">JavaScript / TypeScript</SkillChart>
+          <SkillChart size="290px">React + Ecosystem</SkillChart>
           <SkillChart size="190px">Node.js / GraphQL</SkillChart>
-          <SkillChart size="370px">CSS3 / HTML5</SkillChart>
+          <SkillChart size="310px">CSS3 / HTML5</SkillChart>
           <br />
           <Focuses list={skills} />
         </div>

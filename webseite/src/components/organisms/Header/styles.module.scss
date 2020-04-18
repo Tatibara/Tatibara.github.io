@@ -1,3 +1,5 @@
+@import '../../../scss/variables-mixins/variables-mixins';
+
 $color-header-text: #fff;
 
 // rgb(26, 49, 87);
@@ -42,6 +44,9 @@ $color-header-text: #fff;
   letter-spacing: 1px;
   font-weight: 600;
   padding-right: 20px;
+  @include breakpoint($breakpointM) {
+    padding-right: 10px;
+  }
 }
 
 .menu {
@@ -51,10 +56,16 @@ $color-header-text: #fff;
   font-size: 11px;
   letter-spacing: 2px;
   font-weight: 600;
+  @include breakpoint(870px) {
+    display: none;
+  }
 
   li {
     display: inline;
     padding: 0 10px;
+    @include breakpoint($breakpointM) {
+      padding: 0 5px;
+    }
 
     a.link:hover {
       border-bottom: 2px solid #ddcaaa;
