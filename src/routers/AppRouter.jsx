@@ -6,6 +6,8 @@ import {
   Switch,
 } from 'react-router-dom';
 
+import DataProtectionPage
+  from '../components/pages/DataProtectionPage/DataProtectionPage';
 import HomePage from '../components/pages/HomePage/HomePage';
 import ImprintPage from '../components/pages/ImprintPage/ImprintPage';
 import NotFoundPage from '../components/pages/NotFoundPage/NotFoundPage';
@@ -16,6 +18,7 @@ const AppRouter = () => (
     <Switch>
       <Route exact path={NavigationUrls.homePageUrl} component={HomePage} />
       <Route path={NavigationUrls.imprintPageUrl} component={ImprintPage} />
+      <Route path={NavigationUrls.dataProtectionPageUrl} component={DataProtectionPage} />
       <Route path="*" component={NotFoundPage} />
     </Switch>
   </BrowserRouter>

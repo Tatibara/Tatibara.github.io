@@ -1,6 +1,21 @@
+@import '../../../scss/variables-mixins/variables-mixins';
+
 .sectionWrapper {
   padding-top: 100px;
   padding-bottom: 100px;
+
+  > p {
+    font-size: 13px;
+    letter-spacing: .5px;
+    margin: 0 20px;
+    text-align: left;
+  }
+
+  > h2, h3 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin: 20px;
+  }
 }
 
 .sectionHeader{
@@ -14,23 +29,4 @@
   width: 50px;
   border-bottom: 2px solid #d6a449c4;
   margin: 10px auto;
-}
-
-.contactData {
-  font-size: 13px;
-  letter-spacing: .5px;
-  margin: 30px;
-  text-align: center;
-
-  & > p {
-    margin: 5px 0;
-  }
-
-  & > a {
-    display: inline-block;
-    font-size: 14px;
-    font-weight: 600;
-    margin: 5px;
-    text-decoration: underline;
-  }
 }

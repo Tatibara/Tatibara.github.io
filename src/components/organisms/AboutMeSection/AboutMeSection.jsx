@@ -17,7 +17,7 @@ const AboutMeSection = () => (
           <p>
             Ich bin eine freiberufliche Frontend Entwicklerin mit Expertise in React.
           </p>
-          <div>
+          <div style={{ fontWeight: '600' }}>
             Bei mir sind Sie richtig für
             <Focuses list={
               ['Neuentwicklung mit React Best Practices',

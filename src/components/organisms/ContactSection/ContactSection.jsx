@@ -11,15 +11,12 @@ const ContactSection = () => (
     <div className={styles.line} />
     <div className={styles.contactData}>
       <p>Wünschen Sie eine Zusammenarbeit mit mir? Bitte kontaktieren Sie mich unter:</p>
-      <p>
-        <a href="tel:+4917638667325">+49 (0)176 38667325</a>
-      </p>
-      <p>
-        <a title="Kontakt" href="mailto:tatiana.baradari@gmail.com">
-          tatiana.baradari@gmail.com
-        </a>
-
-      </p>
+      <a href="tel:+4917638667325">+49 (0)176 38667325</a>
+      <br />
+      <a title="Kontakt" href="mailto:tatiana.baradari@gmail.com">
+        tatiana.baradari@gmail.com
+      </a>
+      <br />
       <br />
       <p>Sie finden mich hier:</p>
       <SocialLinks />
