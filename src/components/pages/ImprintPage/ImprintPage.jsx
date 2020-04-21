@@ -14,7 +14,8 @@ const ImprintPage = () => {
 
         <h1 className={styles.sectionHeader}>Impressum</h1>
         <div className={styles.line} />
-
+        <br />
+        <br />
         <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
         <p>
           Tatiana Baradari
