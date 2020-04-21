@@ -31,44 +31,23 @@ const DataProtectionPage = () => {
         <h3>I. Informationen über uns als Verantwortliche</h3>
         <p>Verantwortlicher Anbieter dieses Internetauftritts im datenschutzrechtlichen Sinne ist:</p>
         <p>
-          <span style={{ color: '#ff0000' }}>
-            Musterfirma/Musterunternehmer
+          <span>
+            Tatiana Baradari
             <br />
-            Musterstraße 1
+            Baradari Solutions
             <br />
-            12345 Musterstadt
+            Markelstr. 40A
             <br />
-            Deutschland
-          </span>
-        </p>
-        <p>
-          <span style={{ color: '#ff0000' }}>
-            Telefon: Telefonnummer
-            <br />
-            Telefax: Faxnummer
-            <br />
-            E-Mail: muster@mustermail.xy
-          </span>
-        </p>
-        <p>Datenschutzbeauftragte/r beim Anbieter ist:</p>
-        <p><span style={{ color: '#ff0000' }}>Maxie Musterfrau&nbsp;</span></p>
-        <p><span style={{ color: '#ff0000' }}>[nachfolgende Angaben sind zu ergänzen, sofern ein Externer Datenschutzbeauftragter bestellt ist]</span></p>
-        <p>
-          <span style={{ color: '#ff0000' }}>
-            Musterstraße 1
-            <br />
-            12345 Musterstadt
+            12163 Berlin
             <br />
             Deutschland
           </span>
         </p>
         <p>
-          <span style={{ color: '#ff0000' }}>
-            Telefon: Telefonnummer
+          <span>
+            Telefon: +49 (0)176 38667325
             <br />
-            Telefax: Faxnummer
-            <br />
-            E-Mail: datenschutz@mustermail.xy
+            E-Mail: tatiana.baradari@gmail.com
           </span>
         </p>
         <h3>II. Rechte der Nutzer und Betroffenen</h3>

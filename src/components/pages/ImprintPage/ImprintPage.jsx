@@ -32,7 +32,7 @@ const ImprintPage = () => {
 
         <h2>Kontakt</h2>
         <p>
-          Telefon: +49 (176) 386 67 325
+          Telefon: +49 (0)176 38667325
           <br />
           {' '}
           E-Mail: tatiana.baradari@gmail.com
