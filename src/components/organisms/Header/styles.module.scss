@@ -12,6 +12,10 @@ $color-header-text: #fff;
   justify-content: space-between;
   align-items: center;
   background-color: transparent;
+
+  a {
+    text-decoration: none;
+  }
 }
 .headerWrapperScrolled {
   color: #000;
