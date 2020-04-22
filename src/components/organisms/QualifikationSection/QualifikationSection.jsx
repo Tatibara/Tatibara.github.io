@@ -18,9 +18,9 @@ const skills = [
   'Unit Testing',
 ];
 const experiances = [
-  '10+ in der Softwareentwicklung',
-  '7 in der Frontend-Entwicklung',
-  '3 mit React und dessen Ecosystem',
+  '10+ Jahre in der Softwareentwicklung',
+  '7 Jahre in der Frontend-Entwicklung',
+  '3 Jahre mit React und dessen Ecosystem',
 ];
 const educations = [
   'Diplom-Wirtschaftsinformatikerin',
@@ -57,7 +57,7 @@ const QualifikationSection = () => (
         </div>
       </div>
 
-      <div className={styles.wrapper}>
+      {/* <div className={styles.wrapper}>
         <div className={styles.right}>
           <IosSchoolOutline fontSize="60px" color="#d1a327" />
           <h3>Zertifikate / Abschlüsse </h3>
@@ -66,7 +66,7 @@ const QualifikationSection = () => (
           <Focuses list={['Public Speaking', 'Group Communication']} />
           <Focuses list={educations} />
         </div>
-      </div>
+</div> */}
       <div style={{ textAlign: 'center' }}>
         <Button>Kontaktienren Sie mich</Button>
       </div>

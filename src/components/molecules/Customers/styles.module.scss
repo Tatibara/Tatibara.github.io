@@ -1,0 +1,24 @@
+@import '../../../scss/variables-mixins/variables-mixins';
+
+.customers {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  align-items: center;
+}
+
+.basilicom {
+  height: 10px;
+}
+
+.frauenLoop {
+  height: 20px;
+}
+
+.soniqService {
+  height: 17px;
+}
+
+.ergoDit {
+  height: 30px;
+}

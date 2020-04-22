@@ -42,7 +42,7 @@ const Header = () => {
         </li>
         <li>
           <HashLink className={styles.link} smooth to="#passions">
-            Passionen
+            Leistungen
           </HashLink>
         </li>
         <li>

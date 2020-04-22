@@ -5,12 +5,13 @@ import IosAmericanFootballOutline
 import IosEaselOutline from 'react-ionicons/lib/IosEaselOutline';
 import LogoJavascript from 'react-ionicons/lib/LogoJavascript';
 
+import Customers from '../../molecules/Customers/Customers';
 import styles from './styles.module.scss';
 
 const PassionSection = () => (
   <section id="passions" className={`${styles.sectionWrapper} container`}>
     <h2 className={styles.sectionHeader}>
-      Passionen
+      Leistungen
     </h2>
     <div className={styles.line} />
     <div className={styles.wrapper}>
@@ -36,6 +37,7 @@ const PassionSection = () => (
         </p>
       </div>
     </div>
+    <Customers />
   </section>
 );
 

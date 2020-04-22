@@ -23,9 +23,9 @@ const BasicTemplate = ({ children }) => (
       }}
     >
       Diese Website verwendet Cookies, um die Benutzererfahrung zu verbessern.
-      Weitere Informationen erhalten Sie in unserer
+      Mehr Informationen erhalten Sie
       {' '}
-      <Link to={NavigationUrls.dataProtectionPageUrl}>Datenschutzerklärung</Link>
+      <Link to={NavigationUrls.dataProtectionPageUrl}>hier</Link>
       .
     </CookieConsent>
   </div>

@@ -5,6 +5,9 @@ import styles from './styles.module.scss';
 const SocialLinks = ({ color }) => (
   <span style={{ color }} className={styles.socialLinks}>
 
+    {/* <a href="https://www.xing.com/profile/Tatiana_Baradari/" rel="noopener noreferrer" target="_blank">
+      <span className="far fa-envelope" />
+</a> */}
     <a href="https://www.xing.com/profile/Tatiana_Baradari/" rel="noopener noreferrer" target="_blank">
       <span className="fab fa-xing" />
     </a>
