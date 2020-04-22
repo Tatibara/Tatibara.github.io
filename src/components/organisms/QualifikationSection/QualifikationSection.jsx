@@ -2,7 +2,7 @@ import React from 'react';
 
 import IosConstructOutline from 'react-ionicons/lib/IosConstructOutline';
 // import IosFlaskOutline from 'react-ionicons/lib/IosFlaskOutline';
-import IosSchoolOutline from 'react-ionicons/lib/IosSchoolOutline';
+// import IosSchoolOutline from 'react-ionicons/lib/IosSchoolOutline';
 import IosTrendingUp from 'react-ionicons/lib/IosTrendingUp';
 
 import Button from '../../atoms/Button/Button';
@@ -22,10 +22,10 @@ const experiances = [
   '7 Jahre in der Frontend-Entwicklung',
   '3 Jahre mit React und dessen Ecosystem',
 ];
-const educations = [
-  'Diplom-Wirtschaftsinformatikerin',
-  'Bachelor of Science Informatik',
-];
+// const educations = [
+//   'Diplom-Wirtschaftsinformatikerin',
+//   'Bachelor of Science Informatik',
+// ];
 
 const QualifikationSection = () => (
   <section id="qualifications" className={styles.sectionWrapper}>
