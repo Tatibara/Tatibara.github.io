@@ -11,7 +11,7 @@ const AboutMeSection = () => (
       <h2 className={styles.sectionHeader}>Über mich</h2>
       <div className={styles.line} />
       <div className={styles.wrapper}>
-        <img src={aboutMe} alt="about me" />
+        <img src={aboutMe} alt="Tatiana Baradari" />
         <div className={styles.aboutMe}>
           <p>Hallo, Ich bin Tatiana.</p>
           <p>
