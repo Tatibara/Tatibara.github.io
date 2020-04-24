@@ -35,7 +35,7 @@ const Recommendations = () => (
               -
               {' '}
               <span style={{ color: 'rgb(167, 130, 32)', fontWeight: '600' }}>Mariola Król</span>
-              , Product Owner w ERGO Digital IT
+              , Product Owner ERGO Digital IT
             </div>
             <ReadMoreQuoteLink />
 
@@ -52,7 +52,7 @@ const Recommendations = () => (
               -
               {' '}
               <span style={{ color: 'rgb(167, 130, 32)', fontWeight: '600' }}>Kamila Kowalczyk</span>
-              , Scrum Master w ERGO Digital IT
+              , Scrum Master ERGO Digital IT
             </div>
             <ReadMoreQuoteLink />
           </div>
