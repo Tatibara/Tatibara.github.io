@@ -4,7 +4,14 @@ import styles from './styles.module.scss';
 
 const ReadMoreQuoteLink = () => (
   <div className={styles.readMore}>
-    <a href="https://www.linkedin.com/in/tatiana-baradari/">Weiter lesen</a>
+    <a
+      href="https://www.linkedin.com/in/tatiana-baradari/"
+      rel="noopener noreferrer"
+      target="__blank"
+    >
+      Weiter lesen
+
+    </a>
   </div>
 );
 
