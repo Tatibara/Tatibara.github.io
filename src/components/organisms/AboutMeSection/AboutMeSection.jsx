@@ -2,7 +2,7 @@ import React from 'react';
 
 import Button from '../../atoms/Button/Button';
 import Focuses from '../../molecules/Focuses/Focuses';
-import aboutMe from './DSC03127.jpg';
+import aboutMe from './assets/tati.jpg';
 import styles from './styles.module.scss';
 
 const AboutMeSection = () => (

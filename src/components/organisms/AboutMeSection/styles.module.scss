@@ -33,6 +33,7 @@
 
   & > img {
     min-height: 415px;
+    margin: 10px;
     width:auto;
     border: 1px solid #ddcbaa;
   }
@@ -44,7 +45,7 @@
   margin: 0 100px;
   text-align: left;
 
-  @include breakpoint($breakpointM) {
+  @include breakpoint($breakpointL) {
     margin: 10px 30px 0;
   }
 
