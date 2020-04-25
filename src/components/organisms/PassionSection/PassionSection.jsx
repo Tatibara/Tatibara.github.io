@@ -6,7 +6,7 @@ import IosEaselOutline from 'react-ionicons/lib/IosEaselOutline';
 import LogoJavascript from 'react-ionicons/lib/LogoJavascript';
 
 import Customers from '../../molecules/Customers/Customers';
-import Recommendations from '../../molecules/Recomedations/Recommendations';
+import Recommendations from '../../molecules/Recommendations/Recommendations';
 import styles from './styles.module.scss';
 
 console.log('Passionen!');
