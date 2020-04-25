@@ -9,8 +9,6 @@ import Customers from '../../molecules/Customers/Customers';
 import Recommendations from '../../molecules/Recommendations/Recommendations';
 import styles from './styles.module.scss';
 
-console.log('Passionen!');
-
 const PassionSection = () => (
   <section id="passions" className={`${styles.sectionWrapper} container`}>
     <h2 className={styles.sectionHeader}>
