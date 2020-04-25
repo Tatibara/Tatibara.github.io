@@ -41,7 +41,7 @@ const Header = () => {
           <HashLink className={styles.link} smooth to="#home">Home</HashLink>
         </li>
         <li>
-          <HashLink className={styles.link} smooth to="#passions">
+          <HashLink className={styles.link} smooth to="#services">
             Leistungen
           </HashLink>
         </li>

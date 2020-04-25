@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Button from '../../atoms/Button/Button';
+import Headline from '../../atoms/Headline/Headline';
 import Focuses from '../../molecules/Focuses/Focuses';
 import aboutMe from './assets/tati.jpg';
 import styles from './styles.module.scss';
@@ -8,8 +9,7 @@ import styles from './styles.module.scss';
 const AboutMeSection = () => (
   <section id="aboutme" className={`${styles.sectionWrapper}`}>
     <div className="container">
-      <h2 className={styles.sectionHeader}>Über mich</h2>
-      <div className={styles.line} />
+      <Headline>Über mich</Headline>
       <div className={styles.wrapper}>
         <img src={aboutMe} alt="Tatiana Baradari" />
         <div className={styles.aboutMe}>

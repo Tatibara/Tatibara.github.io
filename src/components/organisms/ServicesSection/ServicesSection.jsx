@@ -5,16 +5,14 @@ import IosAmericanFootballOutline
 import IosEaselOutline from 'react-ionicons/lib/IosEaselOutline';
 import LogoJavascript from 'react-ionicons/lib/LogoJavascript';
 
+import Headline from '../../atoms/Headline/Headline';
 import Customers from '../../molecules/Customers/Customers';
 import Recommendations from '../../molecules/Recommendations/Recommendations';
 import styles from './styles.module.scss';
 
-const PassionSection = () => (
-  <section id="passions" className={`${styles.sectionWrapper} container`}>
-    <h2 className={styles.sectionHeader}>
-      Leistungen
-    </h2>
-    <div className={styles.line} />
+const ServicesSection = () => (
+  <section id="services" className={`${styles.sectionWrapper} container`}>
+    <Headline>Leistungen</Headline>
     <div className={styles.wrapper}>
       <div className={styles.element}>
         <LogoJavascript fontSize="60px" color="#d1a327" />
@@ -43,4 +41,4 @@ const PassionSection = () => (
   </section>
 );
 
-export default PassionSection;
+export default ServicesSection;

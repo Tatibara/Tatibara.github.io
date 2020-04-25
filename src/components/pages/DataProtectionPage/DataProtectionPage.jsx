@@ -1,6 +1,7 @@
 /* eslint-disable max-len */
 import React from 'react';
 
+import Headline from '../../atoms/Headline/Headline';
 import BasicHeader from '../../organisms/BasicHeader/BasicHeader';
 import BasicTemplate from '../../templates/BasicTemplate/BasicTemplate';
 import styles from './styles.module.scss';
@@ -11,9 +12,7 @@ const DataProtectionPage = () => {
     <BasicTemplate>
       <BasicHeader />
       <div className={`container ${styles.sectionWrapper}`}>
-
-        <h1 className={styles.sectionHeader}>Datenschutzerklärung</h1>
-        <div className={styles.line} />
+        <Headline>Datenschutzerklärung</Headline>
         <br />
         <br />
 

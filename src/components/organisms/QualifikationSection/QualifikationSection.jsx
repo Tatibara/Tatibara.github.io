@@ -4,6 +4,7 @@ import IosConstructOutline from 'react-ionicons/lib/IosConstructOutline';
 import IosTrendingUp from 'react-ionicons/lib/IosTrendingUp';
 
 import Button from '../../atoms/Button/Button';
+import Headline from '../../atoms/Headline/Headline';
 import Focuses from '../../molecules/Focuses/Focuses';
 import Technologies from '../../molecules/Technologies/Technologies';
 import styles from './styles.module.scss';
@@ -24,9 +25,7 @@ const experiances = [
 const QualifikationSection = () => (
   <section id="qualifications" className={styles.sectionWrapper}>
     <div className="container">
-      <h2 className={styles.sectionHeader}>Qualifikationen</h2>
-      <div className={styles.line} />
-
+      <Headline>Qualifikationen</Headline>
       <Technologies />
       <div className={styles.wrapper}>
         <div className={styles.right}>
