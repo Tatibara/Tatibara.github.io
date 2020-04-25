@@ -3,7 +3,7 @@ import React from 'react';
 import IosQuoteOutline from 'react-ionicons/lib/IosQuoteOutline';
 import { Slide } from 'react-slideshow-image';
 
-import ReadMoreQuoteLink from '../../atoms/ReadMoreQuoteLink/ReadMoreQuoteLink';
+import Recommendation from '../Recomedation/Recommendation';
 import styles from './styles.module.scss';
 
 const properties = {
@@ -13,9 +13,6 @@ const properties = {
   indicators: true,
   arrows: false,
   pauseOnHover: true,
-  onChange: (oldIndex, newIndex) => {
-    console.log(`slide transition from ${oldIndex} to ${newIndex}`);
-  },
 };
 
 const Recommendations = () => (
@@ -25,53 +22,32 @@ const Recommendations = () => (
       <Slide {...properties}>
 
         <div className="each-fade">
-          <div>
-            <i className={styles.quote}>
-              &ldquo; ... What was amazing to me, Tatiana always comprehended instructions
-              quickly and was flexible when changes had to be made in the original plan. ... &ldquo;
-            </i>
-
-            <div className={styles.author}>
-              -
-              {' '}
-              <span style={{ color: 'rgb(167, 130, 32)', fontWeight: '600' }}>Mariola Król</span>
-              , Product Owner ERGO Digital IT
-            </div>
-            <ReadMoreQuoteLink />
-
-          </div>
+          <Recommendation
+            quote="What was amazing to me, Tatiana always comprehended instructions
+        quickly and was flexible when changes had to be made in the original plan."
+            author="Mariola Król"
+            position="Product Owner ERGO Digital IT"
+          />
         </div>
         <div className="each-fade">
-          <div>
-            <i className={styles.quote}>
-              &ldquo; ... Tatiana participated actively in all meetings,
-              proactively solve issues and collaborated confidently
-              with business clients in both English and German language. ... &ldquo;
-            </i>
-            <div className={styles.author}>
-              -
-              {' '}
-              <span style={{ color: 'rgb(167, 130, 32)', fontWeight: '600' }}>Kamila Kowalczyk</span>
-              , Scrum Master ERGO Digital IT
-            </div>
-            <ReadMoreQuoteLink />
-          </div>
+          <Recommendation
+            quote="Tatiana participated actively in all meetings,
+            proactively solve issues and collaborated confidently
+            with business clients in both English and German language."
+            author="Kamila Kowalczyk"
+            position="Scrum Master ERGO Digital IT"
+          />
         </div>
         <div className="each-fade">
-          <i className={styles.quote}>
-            &ldquo; ... What I valued the most were code reviews,
+          <Recommendation
+            quote="What I valued the most were code reviews,
             I could always rely on Tatiana to give me valuable
             advice on good practices in React, check my code
             for errors and have a professional discussion in
-            case of disagreements. ... &ldquo;
-          </i>
-          <div className={styles.author}>
-            -
-            {' '}
-            <span style={{ color: 'rgb(167, 130, 32)', fontWeight: '600' }}>Martin Witczak</span>
-            , Freelance Software Engineer
-          </div>
-          <ReadMoreQuoteLink />
+            case of disagreements."
+            author="Martin Witczak"
+            position="Freelance Software Engineer"
+          />
         </div>
 
       </Slide>
