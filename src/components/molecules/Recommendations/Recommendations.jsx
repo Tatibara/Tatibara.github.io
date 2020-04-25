@@ -3,7 +3,7 @@ import React from 'react';
 import IosQuoteOutline from 'react-ionicons/lib/IosQuoteOutline';
 import { Slide } from 'react-slideshow-image';
 
-import Recommendation from '../Recomedation/Recommendation';
+import Recommendation from '../Recommendation/Recommendation';
 import styles from './styles.module.scss';
 
 const properties = {
