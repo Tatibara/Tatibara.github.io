@@ -9,15 +9,16 @@ const BigHeader = () => (
   <header className={styles.header} id="home">
     <div className={styles.headerTextWrapper}>
       <h1 className={styles.headerText}>Baradari Solutions</h1>
-      <span className={styles.headerSubtext}>Web Frontend Architektur & Trainings</span>
+      <span className={styles.headerSubtext}>
+        Web Frontend Architektur & Trainings
+      </span>
     </div>
     <div className={styles.downArrowWrapper}>
       <span className={styles.goDownText}>nach unten</span>
-      <HashLink smooth to="#passions">
+      <HashLink smooth to="#services">
         <IosArrowDropdown fontSize="60px" color="#ddcaaa" />
       </HashLink>
     </div>
-
   </header>
 );
 
