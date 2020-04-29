@@ -20,13 +20,21 @@ const Recommendations = () => (
     <IosQuoteOutline fontSize="30px" color="#d1a327" />
     <div className="slide-container">
       <Slide {...properties}>
-
         <div className="each-fade">
           <Recommendation
             quote="What was amazing to me, Tatiana always comprehended instructions
         quickly and was flexible when changes had to be made in the original plan."
             author="Mariola Król"
             position="Product Owner ERGO Digital IT"
+          />
+        </div>
+        <div className="each-fade">
+          <Recommendation
+            quote="I was inspired by Tatiana’s approach to teaching,
+            which is based on encouraging curiosity and helping students
+            build real-life applications in React."
+            author="Larisa Kristya"
+            position="Junior Frontend Developer"
           />
         </div>
         <div className="each-fade">
@@ -49,7 +57,6 @@ const Recommendations = () => (
             position="Freelance Software Engineer"
           />
         </div>
-
       </Slide>
     </div>
   </div>
