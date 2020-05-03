@@ -91,9 +91,9 @@ const DataProtectionPage = () => {
         <h4>LinkedIn</h4>
         <p>We maintain an online presence on LinkedIn to present our company and our services and to communicate with customers/prospects. LinkedIn is a service of LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place, Dublin 2, Irland, a subsidiary of LinkedIn Corporation, 1000 W. Maude Avenue, Sunnyvale, CA 94085, USA.</p>
         <p>We would like to point out that this might cause user data to be processed outside the European Union, particularly in the United States. This may increase risks for users that, for example, may make subsequent access to the user data more difficult. We also do not have access to this user data. Access is only available to LinkedIn. LinkedIn Corporation is certified under the Privacy Shield and committed to comply with European privacy standards.</p>
-        <p><a href="https://www.privacyshield.gov/participant?id=a2zt0000000L0UZAA0&amp;status=Active" target="_blank" rel="noopener">https://www.privacyshield.gov/participant?id=a2zt0000000L0UZAA0&amp;status=Active</a></p>
+        <p><a href="https://www.privacyshield.gov/participant?id=a2zt0000000L0UZAA0&amp;status=Active" target="_blank" rel="noopener noreferrer">https://www.privacyshield.gov/participant?id=a2zt0000000L0UZAA0&amp;status=Active</a></p>
         <p>The LinkedIn privacy policy can be found here:</p>
-        <p><a href="https://www.linkedin.com/legal/privacy-policy" target="_blank" rel="noopener">https://www.linkedin.com/legal/privacy-policy</a></p>
+        <p><a href="https://www.linkedin.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/legal/privacy-policy</a></p>
 
         <h4>Social media links via graphics</h4>
         <p>We also integrate the following social media sites into our website. The integration takes place via a linked graphic of the respective site. The use of these graphics stored on our own servers prevents the automatic connection to the servers of these networks for their display. Only by clicking on the corresponding graphic will you be forwarded to the service of the respective social network.</p>
@@ -106,40 +106,40 @@ const DataProtectionPage = () => {
         <p>
           Privacy Policy:
           {' '}
-          <a href="https://www.linkedin.com/legal/privacy-policy" target="_blank" rel="noopener">https://www.linkedin.com/legal/privacy-policy</a>
+          <a href="https://www.linkedin.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/legal/privacy-policy</a>
         </p>
         <p>
           EU-US Privacy Shield
           {' '}
-          <a href="https://www.privacyshield.gov/participant?id=a2zt0000000L0UZAA0&amp;status=Active" target="_blank" rel="noopener">https://www.privacyshield.gov/participant?id=a2zt0000000L0UZAA0&amp;status=Active</a>
+          <a href="https://www.privacyshield.gov/participant?id=a2zt0000000L0UZAA0&amp;status=Active" target="_blank" rel="noopener noreferrer">https://www.privacyshield.gov/participant?id=a2zt0000000L0UZAA0&amp;status=Active</a>
         </p>
 
         <h4>Google Analytics</h4>
         <p>We use Google Analytics on our website. This is a web analytics service provided by Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland (hereinafter: Google).</p>
         <p>Through certification according to the EU-US Privacy Shield</p>
-        <p><a href="https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&amp;status=Active" target="_blank" rel="noopener">https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&amp;status=Active</a></p>
+        <p><a href="https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&amp;status=Active" target="_blank" rel="noopener noreferrer">https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&amp;status=Active</a></p>
         <p>Google guarantees that it will follow the EU's data protection regulations when processing data in the United States.</p>
         <p>The Google Analytics service is used to analyze how our website is used. The legal basis is Art. 6 Para. 1 lit. f) GDPR. Our legitimate interest lies in the analysis, optimization, and economic operation of our site.</p>
         <p>Usage and user-related information, such as IP address, place, time, or frequency of your visits to our website will be transmitted to a Google server in the United States and stored there. However, we use Google Analytics with the so-called anonymization function, whereby Google truncates the IP address within the EU or the EEA before it is transmitted to the US.</p>
         <p>The data collected in this way is in turn used by Google to provide us with an evaluation of visits to our website and what visitors do once there. This data can also be used to provide other services related to the use of our website and of the internet in general.</p>
         <p>Google states that it will not connect your IP address to other data. In addition, Google provides further information with regard to its data protection practices at</p>
-        <p><a href="https://www.google.com/intl/de/policies/privacy/partners" target="_blank" rel="noopener">https://www.google.com/intl/de/policies/privacy/partners,</a></p>
+        <p><a href="https://www.google.com/intl/de/policies/privacy/partners" target="_blank" rel="noopener noreferrer">https://www.google.com/intl/de/policies/privacy/partners,</a></p>
         <p>including options you can exercise to prevent such use of your data.</p>
         <p>In addition, Google offers an opt-out add-on at</p>
-        <p><a href="https://tools.google.com/dlpage/gaoptout?hl=de" target="_blank" rel="noopener">https://tools.google.com/dlpage/gaoptout?hl=en</a></p>
+        <p><a href="https://tools.google.com/dlpage/gaoptout?hl=de" target="_blank" rel="noopener noreferrer">https://tools.google.com/dlpage/gaoptout?hl=en</a></p>
         <p>in addition with further information. This add-on can be installed on the most popular browsers and offers you further control over the data that Google collects when you visit our website. The add-on informs Google Analytics' JavaScript (ga.js) that no information about the website visit should be transmitted to Google Analytics. However, this does not prevent information from being transmitted to us or to other web analytics services we may use as detailed herein.</p>
 
         <h4>Google Fonts</h4>
         <p>Our website uses Google Fonts to display external fonts. This is a service provided by Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland (hereinafter: Google).</p>
         <p>Through certification according to the EU-US Privacy Shield</p>
-        <p><a href="https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&amp;status=Active" target="_blank" rel="noopener">https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&amp;status=Active</a></p>
+        <p><a href="https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&amp;status=Active" target="_blank" rel="noopener noreferrer">https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&amp;status=Active</a></p>
         <p>Google guarantees that it will follow the EU's data protection regulations when processing data in the United States.</p>
         <p>To enable the display of certain fonts on our website, a connection to the Google server in the USA is established whenever our website is accessed.</p>
         <p>The legal basis is Art. 6 Para. 1 lit. f) GDPR. Our legitimate interest lies in the optimization and economic operation of our site.</p>
         <p>When you access our site, a connection to Google is established from which Google can identify the site from which your request has been sent and to which IP address the fonts are being transmitted for display.</p>
         <p>Google offers detailed information at</p>
-        <p><a href="https://adssettings.google.com/authenticated" target="_blank" rel="noopener">https://adssettings.google.com/authenticated</a></p>
-        <p><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></p>
+        <p><a href="https://adssettings.google.com/authenticated" target="_blank" rel="noopener noreferrer">https://adssettings.google.com/authenticated</a></p>
+        <p><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a></p>
         <p>in particular on options for preventing the use of data.</p>
 
         <h4>FontAwesome</h4>
@@ -149,15 +149,15 @@ const DataProtectionPage = () => {
         <p>The legal basis is Art.&nbsp; 6 para. 1 lit. f) GDPR. Our legitimate interest lies in the optimisation and economic operation of our website.</p>
         <p>By connecting to the FontAwesome server when you access our website, FontAwesome can determine from which website your request was sent and to which IP address the font should be sent.</p>
         <p>At</p>
-        <p><a href="https://fontawesome.com/privacy" target="_blank" rel="noopener">https://fontawesome.com/privacy</a></p>
+        <p><a href="https://fontawesome.com/privacy" target="_blank" rel="noopener noreferrer">https://fontawesome.com/privacy</a></p>
         <p>FontAwesome offers further information, in particular on the options for preventing data use. </p>
 
         <p>
-          <a href="https://www.ratgeberrecht.eu/leistungen/muster-datenschutzerklaerung.html" target="_blank" rel="noopener">Model Data Protection Statement</a>
+          <a href="https://www.ratgeberrecht.eu/leistungen/muster-datenschutzerklaerung.html" target="_blank" rel="noopener noreferrer">Model Data Protection Statement</a>
           {' '}
           for
           {' '}
-          <a href="https://www.ratgeberrecht.eu/" target="_blank">Anwaltskanzlei Weiß &amp; Partner</a>
+          <a href="https://www.ratgeberrecht.eu/" target="_blank" rel="noopener noreferrer">Anwaltskanzlei Weiß &amp; Partner</a>
         </p>
 
       </div>
