@@ -7,7 +7,7 @@ import {
 } from 'react-router-dom';
 
 import DataProtectionPage
-  from '../components/pages/DataProtectionPage/DataProtectionPage';
+  from '../components/pages/DataProtectionPageEnglish/DataProtectionPage';
 import HomePage from '../components/pages/HomePage/HomePage';
 import ImprintPage from '../components/pages/ImprintPage/ImprintPage';
 import NotFoundPage from '../components/pages/NotFoundPage/NotFoundPage';

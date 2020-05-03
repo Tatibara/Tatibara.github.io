@@ -10,11 +10,17 @@ const Footer = () => (
     <div className={styles.footerWrapper}>
       <span>&copy; Copyright 2020 Baradari Solutions - Tatiana Baradari</span>
       <div className={styles.links}>
-        <Link to={NavigationUrls.dataProtectionPageUrl}>Datenschutz</Link>
+        <Link to={NavigationUrls.dataProtectionPageUrl}>
+          Privacy Policy
+          {/* Datenschutz */}
+        </Link>
         {' '}
         |
         {' '}
-        <Link to={NavigationUrls.imprintPageUrl}>Impressum</Link>
+        <Link to={NavigationUrls.imprintPageUrl}>
+          Imprint
+          {/* Impressum */}
+        </Link>
       </div>
     </div>
   </footer>

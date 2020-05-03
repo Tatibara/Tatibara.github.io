@@ -9,8 +9,8 @@ const ReadMoreQuoteLink = () => (
       rel="noopener noreferrer"
       target="__blank"
     >
-      Weiter lesen
-
+      Read more
+      {/* Weiter lesen */}
     </a>
   </div>
 );

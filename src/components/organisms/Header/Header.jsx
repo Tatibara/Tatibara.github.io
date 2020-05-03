@@ -23,14 +23,16 @@ const Header = () => {
         setNavBackground(show);
       }
     };
-    document.addEventListener('scroll', handleScroll);
+    document.addEventListener("scroll", handleScroll);
     return () => {
-      document.removeEventListener('scroll', handleScroll);
+      document.removeEventListener("scroll", handleScroll);
     };
   }, []);
   return (
     <div
-      className={`${styles.headerWrapper} ${navBackground && styles.headerWrapperScrolled}`}
+      className={`${styles.headerWrapper} ${
+        navBackground && styles.headerWrapperScrolled
+      }`}
     >
       <Link to={NavigationUrls.homePageUrl}>
         <h1 className={styles.logoText}>BS</h1>
@@ -38,26 +40,32 @@ const Header = () => {
       </Link>
       <ul className={styles.menu}>
         <li>
-          <HashLink className={styles.link} smooth to="#home">Home</HashLink>
+          <HashLink className={styles.link} smooth to="#home">
+            Home
+          </HashLink>
         </li>
         <li>
           <HashLink className={styles.link} smooth to="#services">
-            Leistungen
+            Services
+            {/* Leistungen */}
           </HashLink>
         </li>
         <li>
           <HashLink className={styles.link} smooth to="#qualifications">
-            Qualifikationen
+            Qualifications
+            {/* Qualifikationen */}
           </HashLink>
         </li>
         <li>
           <HashLink className={styles.link} smooth to="#aboutme">
-            Über mich
+            About me
+            {/* Über mich */}
           </HashLink>
         </li>
         <li>
           <Button smooth to="#contact">
-            Kontakt
+            Contact
+            {/* Kontakt */}
           </Button>
         </li>
       </ul>
@@ -65,7 +73,7 @@ const Header = () => {
         <span className={styles.telefon}>
           <a href="tel:+4917638667325">+49 (0)176 38667325</a>
         </span>
-        <SocialLinks color={navBackground ? '#000' : '#fff'} />
+        <SocialLinks color={navBackground ? "#000" : "#fff"} />
       </div>
     </div>
   );

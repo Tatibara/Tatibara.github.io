@@ -10,11 +10,14 @@ const BigHeader = () => (
     <div className={styles.headerTextWrapper}>
       <h1 className={styles.headerText}>Baradari Solutions</h1>
       <span className={styles.headerSubtext}>
-        Web Frontend Architektur & Trainings
+        Web Frontend Architecture & Mentoring
       </span>
     </div>
     <div className={styles.downArrowWrapper}>
-      <span className={styles.goDownText}>nach unten</span>
+      <span className={styles.goDownText}>
+        Scroll for more
+        {/* nach unten */}
+      </span>
       <HashLink smooth to="#services">
         <IosArrowDropdown fontSize="60px" color="#ddcaaa" />
       </HashLink>

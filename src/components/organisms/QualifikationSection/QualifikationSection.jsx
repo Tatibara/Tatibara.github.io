@@ -10,27 +10,42 @@ import Technologies from '../../molecules/Technologies/Technologies';
 import styles from './styles.module.scss';
 
 const skills = [
-  'Responsive Design',
-  'Wartbarer und Skalierbarer Code',
-  'Cross-Browser-Kompatibilität',
-  'Optimierungstechniken',
-  'Unit Testing',
+  "Responsive Design",
+  "Maintainable and Scalable Code",
+  "Cross-browser Compatibility",
+  "Optimization Techniques",
+  "Unit Testing",
 ];
-const experiances = [
-  '10+ Jahre in der Softwareentwicklung',
-  '7 Jahre in der Frontend-Entwicklung',
-  '3 Jahre mit React und dessen Ecosystem',
+// const skills = [
+//   "Responsive Design",
+//   "Wartbarer und Skalierbarer Code",
+//   "Cross-Browser-Kompatibilität",
+//   "Optimierungstechniken",
+//   "Unit Testing",
+// ];
+const experiences = [
+  "10+ years in software development",
+  "7 years in front-end development",
+  "3 years with React and its ecosystem",
 ];
+// const experiences = [
+//   "10+ Jahre in der Softwareentwicklung",
+//   "7 Jahre in der Frontend-Entwicklung",
+//   "3 Jahre mit React und dessen Ecosystem",
+// ];
 
 const QualifikationSection = () => (
   <section id="qualifications" className={styles.sectionWrapper}>
     <div className="container">
-      <Headline>Qualifikationen</Headline>
+      <Headline>Qualifications</Headline>
       <Technologies />
       <div className={styles.wrapper}>
         <div className={styles.right}>
           <IosConstructOutline fontSize="60px" color="#d1a327" />
-          <h3>Schwerpunkte</h3>
+          <h3>
+            Key areas
+            {/* Schwerpunkte */}
+          </h3>
         </div>
         <div className={styles.left}>
           <Focuses list={skills} />
@@ -39,16 +54,22 @@ const QualifikationSection = () => (
       <div className={styles.wrapper}>
         <div className={styles.right}>
           <IosTrendingUp fontSize="60px" color="#d1a327" />
-          <h3>Erfahrung in Zahlen</h3>
+          <h3>
+            Experience in numbers
+            {/* Erfahrung in Zahlen */}
+          </h3>
         </div>
 
         <div className={styles.left}>
-          <Focuses list={experiances} />
+          <Focuses list={experiences} />
         </div>
       </div>
 
-      <div style={{ textAlign: 'center' }}>
-        <Button>Kontaktienren Sie mich</Button>
+      <div style={{ textAlign: "center" }}>
+        <Button>
+          Contact me
+          {/* Kontaktieren Sie mich */}
+        </Button>
       </div>
     </div>
   </section>

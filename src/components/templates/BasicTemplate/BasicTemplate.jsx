@@ -11,7 +11,7 @@ const BasicTemplate = ({ children }) => (
     <div>{children}</div>
     <Footer />
     <CookieConsent
-      buttonText="Akzeptieren"
+      buttonText="Accept"
       style={{
         opacity: '0.8',
         fontSize: '13px',
@@ -22,10 +22,12 @@ const BasicTemplate = ({ children }) => (
         letterSpacing: '1px',
       }}
     >
-      Diese Website verwendet Cookies, um die Benutzererfahrung zu verbessern.
-      Mehr Informationen erhalten Sie
+      This website uses cookies to improve the user experience.
+      For more information please click
+      {/* Diese Website verwendet Cookies, um die Benutzererfahrung zu verbessern.
+      Mehr Informationen erhalten Sie */}
       {' '}
-      <Link to={NavigationUrls.dataProtectionPageUrl}>hier</Link>
+      <Link to={NavigationUrls.dataProtectionPageUrl}>here</Link>
       .
     </CookieConsent>
   </div>

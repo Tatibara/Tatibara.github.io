@@ -1,6 +1,7 @@
 /* eslint-disable max-len */
 import React from 'react';
 
+import Headline from '../../atoms/Headline/Headline';
 import BasicHeader from '../../organisms/BasicHeader/BasicHeader';
 import BasicTemplate from '../../templates/BasicTemplate/BasicTemplate';
 import styles from './styles.module.scss';
@@ -11,12 +12,10 @@ const DataProtectionPage = () => {
     <BasicTemplate>
       <BasicHeader />
       <div className={`container ${styles.sectionWrapper}`}>
+        <Headline>Privacy Policy</Headline>
+        <br />
+        <br />
 
-        <h1 className={styles.sectionHeader}>Datenschutzerklärung</h1>
-        <div className={styles.line} />
-
-
-        <h2>Privacy Policy</h2>
         <p>Personal data (usually referred to just as "data" below) will only be processed by us to the extent necessary and for the purpose of providing a functional and user-friendly website, including its contents, and the services offered there.</p>
         <p>Per Art. 4 No. 1 of Regulation (EU) 2016/679, i.e. the General Data Protection Regulation (hereinafter referred to as the "GDPR"), "processing" refers to any operation or set of operations such as collection, recording, organization, structuring, storage, adaptation, alteration, retrieval, consultation, use, disclosure by transmission, dissemination, or otherwise making available, alignment, or combination, restriction, erasure, or destruction performed on personal data, whether by automated means or not.</p>
         <p>The following privacy policy is intended to inform you in particular about the type, scope, purpose, duration, and legal basis for the processing of such data either under our own control or in conjunction with others. We also inform you below about the third-party components we use to optimize our website and improve the user experience which may result in said third parties also processing data they collect and control.</p>
@@ -29,39 +28,26 @@ const DataProtectionPage = () => {
           III. Information about the data processing
         </p>
         <h3>I. Information about us as controllers of your data</h3>
-        <p>The party responsible for this website (the "controller") for purposes of data protection law is:</p>
+        <p>The party responsible for this website (the &quot;controller&quot;) for purposes of data protection law is:</p>
         <p>
-          <span style={{ color: '#ff0000' }}>Sample company/entrepreneur</span>
-          <br />
-          <span style={{ color: '#ff0000' }}>Any street 1</span>
-          <br />
-          <span style={{ color: '#ff0000' }}>12345 Anytown</span>
-          <br />
-          <span style={{ color: '#ff0000' }}>Germany</span>
+          <span>
+            Tatiana Baradari
+            <br />
+            Baradari Solutions
+            <br />
+            Markelstr. 40A
+            <br />
+            12163 Berlin
+            <br />
+            Germany
+          </span>
         </p>
         <p>
-          <span style={{ color: '#ff0000' }}>Telephone: Telephone number</span>
-          <br />
-          <span style={{ color: '#ff0000' }}>Fax: Fax number</span>
-          <br />
-          <span style={{ color: '#ff0000' }}>Email: muster@mustermail.xy</span>
-        </p>
-        <p>The controller's data protection officer is:</p>
-        <p><span style={{ color: '#ff0000' }}>Maxie Musterfrau&nbsp;</span></p>
-        <p><span style={{ color: '#ff0000' }}>[The following information must be added if an external data protection officer has been appointed].</span></p>
-        <p>
-          <span style={{ color: '#ff0000' }}>Any street 1</span>
-          <br />
-          <span style={{ color: '#ff0000' }}>12345 Anytown</span>
-          <br />
-          <span style={{ color: '#ff0000' }}>Germany</span>
-        </p>
-        <p>
-          <span style={{ color: '#ff0000' }}>Telephone: Telephone number</span>
-          <br />
-          <span style={{ color: '#ff0000' }}>Fax: Fax number</span>
-          <br />
-          <span style={{ color: '#ff0000' }}>Email: datenschutz@mustermail.xy</span>
+          <span>
+            Telephone: +49 (0)176 38667325
+            <br />
+            E-Mail: tatiana.baradari@gmail.com
+          </span>
         </p>
         <h3>II. The rights of users and data subjects</h3>
         <p>With regard to the data processing to be described in more detail below, users and data subjects have the right</p>

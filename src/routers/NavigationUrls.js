@@ -1,5 +1,5 @@
 export default {
   homePageUrl: '/',
   imprintPageUrl: '/imprint',
-  dataProtectionPageUrl: '/data-protection',
+  dataProtectionPageUrl: '/privacy-policy',
 };
