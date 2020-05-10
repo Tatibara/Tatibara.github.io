@@ -23,9 +23,9 @@ const Header = () => {
         setNavBackground(show);
       }
     };
-    document.addEventListener("scroll", handleScroll);
+    document.addEventListener('scroll', handleScroll);
     return () => {
-      document.removeEventListener("scroll", handleScroll);
+      document.removeEventListener('scroll', handleScroll);
     };
   }, []);
   return (
@@ -73,7 +73,7 @@ const Header = () => {
         <span className={styles.telefon}>
           <a href="tel:+4917638667325">+49 (0)176 38667325</a>
         </span>
-        <SocialLinks color={navBackground ? "#000" : "#fff"} />
+        <SocialLinks color={navBackground ? '#000' : '#fff'} />
       </div>
     </div>
   );

@@ -16,8 +16,8 @@ const DataProtectionPage = () => {
         <br />
         <br />
 
-        <p>Personal data (usually referred to just as "data" below) will only be processed by us to the extent necessary and for the purpose of providing a functional and user-friendly website, including its contents, and the services offered there.</p>
-        <p>Per Art. 4 No. 1 of Regulation (EU) 2016/679, i.e. the General Data Protection Regulation (hereinafter referred to as the "GDPR"), "processing" refers to any operation or set of operations such as collection, recording, organization, structuring, storage, adaptation, alteration, retrieval, consultation, use, disclosure by transmission, dissemination, or otherwise making available, alignment, or combination, restriction, erasure, or destruction performed on personal data, whether by automated means or not.</p>
+        <p>Personal data (usually referred to just as &quot;data&quot; below) will only be processed by us to the extent necessary and for the purpose of providing a functional and user-friendly website, including its contents, and the services offered there.</p>
+        <p>Per Art. 4 No. 1 of Regulation (EU) 2016/679, i.e. the General Data Protection Regulation (hereinafter referred to as the &quot;GDPR&quot;), &quot;processing&quot; refers to any operation or set of operations such as collection, recording, organization, structuring, storage, adaptation, alteration, retrieval, consultation, use, disclosure by transmission, dissemination, or otherwise making available, alignment, or combination, restriction, erasure, or destruction performed on personal data, whether by automated means or not.</p>
         <p>The following privacy policy is intended to inform you in particular about the type, scope, purpose, duration, and legal basis for the processing of such data either under our own control or in conjunction with others. We also inform you below about the third-party components we use to optimize our website and improve the user experience which may result in said third parties also processing data they collect and control.</p>
         <p>Our privacy policy is structured as follows:</p>
         <p>
@@ -59,7 +59,7 @@ const DataProtectionPage = () => {
           <li>to file complaints with the supervisory authority if they believe that data concerning them is being processed by the controller in breach of data protection provisions (see also Art. 77 GDPR).</li>
         </ul>
         <p>In addition, the controller is obliged to inform all recipients to whom it discloses data of any such corrections, deletions, or restrictions placed on processing the same per Art. 16, 17 Para. 1, 18 GDPR. However, this obligation does not apply if such notification is impossible or involves a disproportionate effort. Nevertheless, users have a right to information about these recipients.</p>
-        <p><strong>Likewise, under Art. 21 GDPR, users and data subjects have the right to object to the controller's future processing of their data pursuant to Art. 6 Para. 1 lit. f) GDPR. In particular, an objection to data processing for the purpose of direct advertising is permissible.</strong></p>
+        <p><strong>Likewise, under Art. 21 GDPR, users and data subjects have the right to object to the controller&apos;s future processing of their data pursuant to Art. 6 Para. 1 lit. f) GDPR. In particular, an objection to data processing for the purpose of direct advertising is permissible.</strong></p>
         <h3>III. Information about the data processing</h3>
         <p>Your data processed when using our website will be deleted or blocked as soon as the purpose for its storage ceases to apply, provided the deletion of the same is not in breach of any statutory storage obligations or unless otherwise stipulated below.</p>
 
@@ -118,7 +118,7 @@ const DataProtectionPage = () => {
         <p>We use Google Analytics on our website. This is a web analytics service provided by Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland (hereinafter: Google).</p>
         <p>Through certification according to the EU-US Privacy Shield</p>
         <p><a href="https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&amp;status=Active" target="_blank" rel="noopener noreferrer">https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&amp;status=Active</a></p>
-        <p>Google guarantees that it will follow the EU's data protection regulations when processing data in the United States.</p>
+        <p>Google guarantees that it will follow the EU&apos;s data protection regulations when processing data in the United States.</p>
         <p>The Google Analytics service is used to analyze how our website is used. The legal basis is Art. 6 Para. 1 lit. f) GDPR. Our legitimate interest lies in the analysis, optimization, and economic operation of our site.</p>
         <p>Usage and user-related information, such as IP address, place, time, or frequency of your visits to our website will be transmitted to a Google server in the United States and stored there. However, we use Google Analytics with the so-called anonymization function, whereby Google truncates the IP address within the EU or the EEA before it is transmitted to the US.</p>
         <p>The data collected in this way is in turn used by Google to provide us with an evaluation of visits to our website and what visitors do once there. This data can also be used to provide other services related to the use of our website and of the internet in general.</p>
@@ -127,13 +127,13 @@ const DataProtectionPage = () => {
         <p>including options you can exercise to prevent such use of your data.</p>
         <p>In addition, Google offers an opt-out add-on at</p>
         <p><a href="https://tools.google.com/dlpage/gaoptout?hl=de" target="_blank" rel="noopener noreferrer">https://tools.google.com/dlpage/gaoptout?hl=en</a></p>
-        <p>in addition with further information. This add-on can be installed on the most popular browsers and offers you further control over the data that Google collects when you visit our website. The add-on informs Google Analytics' JavaScript (ga.js) that no information about the website visit should be transmitted to Google Analytics. However, this does not prevent information from being transmitted to us or to other web analytics services we may use as detailed herein.</p>
+        <p>in addition with further information. This add-on can be installed on the most popular browsers and offers you further control over the data that Google collects when you visit our website. The add-on informs Google Analytics&apos; JavaScript (ga.js) that no information about the website visit should be transmitted to Google Analytics. However, this does not prevent information from being transmitted to us or to other web analytics services we may use as detailed herein.</p>
 
         <h4>Google Fonts</h4>
         <p>Our website uses Google Fonts to display external fonts. This is a service provided by Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland (hereinafter: Google).</p>
         <p>Through certification according to the EU-US Privacy Shield</p>
         <p><a href="https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&amp;status=Active" target="_blank" rel="noopener noreferrer">https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&amp;status=Active</a></p>
-        <p>Google guarantees that it will follow the EU's data protection regulations when processing data in the United States.</p>
+        <p>Google guarantees that it will follow the EU&apos;s data protection regulations when processing data in the United States.</p>
         <p>To enable the display of certain fonts on our website, a connection to the Google server in the USA is established whenever our website is accessed.</p>
         <p>The legal basis is Art. 6 Para. 1 lit. f) GDPR. Our legitimate interest lies in the optimization and economic operation of our site.</p>
         <p>When you access our site, a connection to Google is established from which Google can identify the site from which your request has been sent and to which IP address the fonts are being transmitted for display.</p>
@@ -144,7 +144,7 @@ const DataProtectionPage = () => {
 
         <h4>FontAwesome</h4>
         <p>In order to be able to display fonts and visual elements of our website, we use FontAwesome’s external fonts.&nbsp; FontAwesome is a service of</p>
-        <p>Fonticons Inc., 6 Porter Road, Apartment 3R, Cambridge, MA 02140, USA, hereinafter referred to as "FontAwesome".</p>
+        <p>Fonticons Inc., 6 Porter Road, Apartment 3R, Cambridge, MA 02140, USA, hereinafter referred to as &quot;FontAwesome&quot;.</p>
         <p>When you access our website, a connection is established to the FontAwesome server in the USA in order to enable and update the display of fonts and visual elements.</p>
         <p>The legal basis is Art.&nbsp; 6 para. 1 lit. f) GDPR. Our legitimate interest lies in the optimisation and economic operation of our website.</p>
         <p>By connecting to the FontAwesome server when you access our website, FontAwesome can determine from which website your request was sent and to which IP address the font should be sent.</p>

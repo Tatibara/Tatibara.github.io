@@ -13,15 +13,15 @@ const AboutMeSection = () => (
       <div className={styles.wrapper}>
         <img src={aboutMe} alt="Tatiana Baradari" />
         <div className={styles.aboutMe}>
-          <p>Hi, I'm Tatiana.</p>
+          <p>Hi, I&apos;m Tatiana.</p>
           <p>I am a freelance frontend developer with expertise in React.</p>
-          <div style={{ fontWeight: "600" }}>
-            You are right with me for
+          <div style={{ fontWeight: '600' }}>
+            You are right with me for:
             <Focuses
               list={[
-                "New development with React best practices",
-                "Migration of existing solutions to the React ecosystem",
-                "React mentoring",
+                'new development with React best practices,',
+                'migration of existing solutions to the React ecosystem,',
+                'React mentoring.',
               ]}
             />
           </div>
@@ -34,9 +34,9 @@ const AboutMeSection = () => (
             and I love to walk around the city.
           </p>
           <p>
-            Since January 2020 I have been a mentor in the Frontend Engineering
-            Program of the FrauenLoop gUG. I am very proud to support other
-            women in IT!
+            I am a mentor in the Frontend Engineering
+            Program at FrauenLoop, where I teach React. It is very important for me
+            to support other women in IT!
           </p>
           {/* <p>Hallo, Ich bin Tatiana.</p>
           <p>
@@ -68,9 +68,9 @@ const AboutMeSection = () => (
             </p> */}
         </div>
       </div>
-      <div style={{ textAlign: "center" }}>
+      <div style={{ textAlign: 'center' }}>
         <Button>
-          Let's talk
+          Let&apos;s talk
           {/* Lass uns reden */}
         </Button>
       </div>

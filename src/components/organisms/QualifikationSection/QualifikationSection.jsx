@@ -10,11 +10,11 @@ import Technologies from '../../molecules/Technologies/Technologies';
 import styles from './styles.module.scss';
 
 const skills = [
-  "Responsive Design",
-  "Maintainable and Scalable Code",
-  "Cross-browser Compatibility",
-  "Optimization Techniques",
-  "Unit Testing",
+  'Responsive Design',
+  'Maintainable and Scalable Code',
+  'Cross-browser Compatibility',
+  'Optimization Techniques',
+  'Unit Testing',
 ];
 // const skills = [
 //   "Responsive Design",
@@ -24,9 +24,9 @@ const skills = [
 //   "Unit Testing",
 // ];
 const experiences = [
-  "10+ years in software development",
-  "7 years in front-end development",
-  "3 years with React and its ecosystem",
+  '10+ years in software development',
+  '7 years in front-end development',
+  '3 years with React and its ecosystem',
 ];
 // const experiences = [
 //   "10+ Jahre in der Softwareentwicklung",
@@ -65,7 +65,7 @@ const QualifikationSection = () => (
         </div>
       </div>
 
-      <div style={{ textAlign: "center" }}>
+      <div style={{ textAlign: 'center' }}>
         <Button>
           Contact me
           {/* Kontaktieren Sie mich */}

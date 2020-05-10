@@ -10,7 +10,8 @@ const BigHeader = () => (
     <div className={styles.headerTextWrapper}>
       <h1 className={styles.headerText}>Baradari Solutions</h1>
       <span className={styles.headerSubtext}>
-        Web Frontend Architecture & Mentoring
+        {/* Web Frontend Architecture & Mentoring */}
+        Web Development with React & Mentoring
       </span>
     </div>
     <div className={styles.downArrowWrapper}>

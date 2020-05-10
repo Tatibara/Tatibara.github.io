@@ -7,7 +7,7 @@ import Recommendation from '../Recommendation/Recommendation';
 import styles from './styles.module.scss';
 
 const properties = {
-  duration: 5000,
+  duration: 10000,
   transitionDuration: 1000,
   infinite: true,
   indicators: true,
@@ -40,7 +40,7 @@ const Recommendations = () => (
         <div className="each-fade">
           <Recommendation
             quote="Tatiana participated actively in all meetings,
-            proactively solve issues and collaborated confidently
+            proactively solved issues and collaborated confidently
             with business clients in both English and German language."
             author="Kamila Kowalczyk"
             position="Scrum Master ERGO Digital IT"

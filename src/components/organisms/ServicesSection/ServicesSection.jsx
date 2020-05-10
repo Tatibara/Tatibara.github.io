@@ -29,7 +29,8 @@ const ServicesSection = () => (
         <h3>Teamwork</h3>
         <p>
           Joint development of great products in an agile environment
-          {/* Gemeinsame Entwicklung von tollen Produkten im agilen Umfeld */}
+          {/* Gemeinsame Entwicklung von (tollen, erstklassigen, anspruchsvollen)
+           Produkten im agilen Umfeld */}
         </p>
       </div>
       <div className={styles.element}>

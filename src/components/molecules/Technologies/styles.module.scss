@@ -12,7 +12,15 @@
   svg {
     height: 70px;
     width: 100px;
-    margin: 20px;
+    margin: 30px 20px 0;
+  }
+
+  span {
+    display: block;
+    text-align: center;
+    font-size: 10px;
+    color: #7c6f3a;
+    text-transform: uppercase;
   }
 
 }

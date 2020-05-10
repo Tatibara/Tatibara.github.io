@@ -11,13 +11,34 @@ import styles from './styles.module.scss';
 
 const Technologies = () => (
   <div className={styles.technologies}>
-    <JavaScriptLogo />
-    <TypescriptLogo />
-    <Html5Logo />
-    <Css3Logo />
-    <ReactLogo />
-    <NodejsLogo />
-    <GraphqlLogo />
+    <div>
+      <JavaScriptLogo />
+      <span>JavaScript</span>
+    </div>
+    <div>
+      <TypescriptLogo />
+      <span>TypeScript</span>
+    </div>
+    <div>
+      <Html5Logo />
+      <span>HTML5</span>
+    </div>
+    <div>
+      <Css3Logo />
+      <span>CSS3</span>
+    </div>
+    <div>
+      <ReactLogo />
+      <span>React</span>
+    </div>
+    <div>
+      <NodejsLogo />
+      <span>Node.js</span>
+    </div>
+    <div>
+      <GraphqlLogo />
+      <span>GraphQL</span>
+    </div>
   </div>
 );
 
