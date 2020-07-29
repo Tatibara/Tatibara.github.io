@@ -8,6 +8,8 @@ import TagManager from 'react-gtm-module';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import './scss/_overwrites.scss';
+
 const tagManagerArgs = {
   gtmId: process.env.REACT_APP_GTMID,
   auth: process.env.REACT_APP_AUTH,
