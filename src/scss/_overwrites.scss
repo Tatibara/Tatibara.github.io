@@ -1,9 +1,9 @@
 @import './variables-mixins/variables-mixins';
 
 .react-slideshow-container + div.indicators > div {
-    width: 10px;
-    height: 10px;
-    margin: 0 10px 15px;
+    width: 9px;
+    height: 9px;
+    margin: 0 5px 10px;
     border-radius: 50%;
     background: #cec3a9d6;
     cursor: pointer;
