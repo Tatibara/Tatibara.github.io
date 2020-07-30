@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dba9865c.chunk.css",
+    "main.js": "/static/js/main.39ef1673.chunk.js",
+    "main.js.map": "/static/js/main.39ef1673.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a68643af.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a68643af.js.map",
+    "static/css/2.043b003d.chunk.css": "/static/css/2.043b003d.chunk.css",
+    "static/js/2.3be22c32.chunk.js": "/static/js/2.3be22c32.chunk.js",
+    "static/js/2.3be22c32.chunk.js.map": "/static/js/2.3be22c32.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.203922bca83a124c22fa6fa488059576.js": "/precache-manifest.203922bca83a124c22fa6fa488059576.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.043b003d.chunk.css.map": "/static/css/2.043b003d.chunk.css.map",
+    "static/css/main.dba9865c.chunk.css.map": "/static/css/main.dba9865c.chunk.css.map",
+    "static/js/2.3be22c32.chunk.js.LICENSE.txt": "/static/js/2.3be22c32.chunk.js.LICENSE.txt",
+    "static/media/styles.module.scss": "/static/media/DSC03096.34274259.jpg",
+    "static/media/Frauenloop_logo.png": "/static/media/Frauenloop_logo.da261cb1.png",
+    "static/media/css3-logo.b1d1fae6.svg": "/static/media/css3-logo.b1d1fae6.svg",
+    "static/media/deutsche_post_logo.c96640aa.svg": "/static/media/deutsche_post_logo.c96640aa.svg",
+    "static/media/graphql-logo.5a4a847b.svg": "/static/media/graphql-logo.5a4a847b.svg",
+    "static/media/html5-logo.4927dc45.svg": "/static/media/html5-logo.4927dc45.svg",
+    "static/media/javascript-logo.87711407.svg": "/static/media/javascript-logo.87711407.svg",
+    "static/media/nodejs-logo.f434bfbb.svg": "/static/media/nodejs-logo.f434bfbb.svg",
+    "static/media/react-logo.c3fbd71b.svg": "/static/media/react-logo.c3fbd71b.svg",
+    "static/media/soniq_services_logo.188352a6.svg": "/static/media/soniq_services_logo.188352a6.svg",
+    "static/media/tati4.jpg": "/static/media/tati4.872903af.jpg",
+    "static/media/typescript-logo.3de182d2.svg": "/static/media/typescript-logo.3de182d2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a68643af.js",
+    "static/css/2.043b003d.chunk.css",
+    "static/js/2.3be22c32.chunk.js",
+    "static/css/main.dba9865c.chunk.css",
+    "static/js/main.39ef1673.chunk.js"
+  ]
+}
