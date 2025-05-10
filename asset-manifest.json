@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.867231ee.css",
+    "main.js": "/static/js/main.a6535974.js",
+    "static/media/DSC03096.jpg": "/static/media/DSC03096.265999a2b55272499aa6.jpg",
+    "static/media/tati4.jpg": "/static/media/tati4.e8533e008f1631fcd3df.jpg",
+    "static/media/nodejs-logo.svg": "/static/media/nodejs-logo.5a3a9ca294db0539884810b6e6eafedd.svg",
+    "static/media/Frauenloop_logo.png": "/static/media/Frauenloop_logo.ecb5c62ec9d8d9a54d7b.png",
+    "static/media/nextjs-logo.svg": "/static/media/nextjs-logo.f9cae5fd7b181274067d1a5e255da274.svg",
+    "static/media/graphql-logo.svg": "/static/media/graphql-logo.d8b57d7c8f90d48d9c1d9b36b4d46928.svg",
+    "static/media/soniq_services_logo.svg": "/static/media/soniq_services_logo.d5cf41afc40468afdf28a7b9c15ebe29.svg",
+    "static/media/react-logo.svg": "/static/media/react-logo.e68b35f4774979ae220b1d5d7b345b00.svg",
+    "static/media/javascript-logo.svg": "/static/media/javascript-logo.fd46ca41839433d73577989d86eb2fe2.svg",
+    "static/media/deutsche_post_logo.svg": "/static/media/deutsche_post_logo.f8fe45f0dce4f441e4ea8e02d48775b6.svg",
+    "index.html": "/index.html",
+    "static/media/css3-logo.svg": "/static/media/css3-logo.d5739401a5676f42bd8114c23e70835b.svg",
+    "static/media/typescript-logo.svg": "/static/media/typescript-logo.a6305a733dd55243980aec55f96f70c5.svg",
+    "static/media/html5-logo.svg": "/static/media/html5-logo.0a7ec912c59dcf68f963af00028e9620.svg",
+    "main.867231ee.css.map": "/static/css/main.867231ee.css.map",
+    "main.a6535974.js.map": "/static/js/main.a6535974.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.867231ee.css",
+    "static/js/main.a6535974.js"
+  ]
+}
