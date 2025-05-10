@@ -25,8 +25,8 @@ const skills = [
 // ];
 const experiences = [
   '10+ years in software development',
-  '7 years in front-end development',
-  '3 years with React and its ecosystem',
+  '10+ years in front-end development',
+  '6 years with React and its ecosystem',
 ];
 // const experiences = [
 //   "10+ Jahre in der Softwareentwicklung",

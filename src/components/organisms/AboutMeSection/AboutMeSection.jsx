@@ -29,10 +29,10 @@ const AboutMeSection = () => (
             I also have a broad network of experts, including everything from
             designers to system architects.
           </p>
-          <p>
+          {/* <p>
             I love Berlin. I love green. To the office I come with the bicycle
             and I love to walk around the city.
-          </p>
+          </p> */}
           <p>
             I am a mentor in the Frontend Engineering
             Program at FrauenLoop, where I teach React. It is very important for me

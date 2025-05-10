@@ -7,6 +7,7 @@ import { ReactComponent as JavaScriptLogo } from './assets/javascript-logo.svg';
 import { ReactComponent as NodejsLogo } from './assets/nodejs-logo.svg';
 import { ReactComponent as ReactLogo } from './assets/react-logo.svg';
 import { ReactComponent as TypescriptLogo } from './assets/typescript-logo.svg';
+import { ReactComponent as NextjsLogo } from './assets/nextjs-logo.svg';
 import styles from './styles.module.scss';
 
 const Technologies = () => (
@@ -30,6 +31,10 @@ const Technologies = () => (
     <div>
       <ReactLogo />
       <span>React</span>
+    </div>
+    <div>
+      <NextjsLogo />
+      <span>Next.js</span>
     </div>
     <div>
       <NodejsLogo />

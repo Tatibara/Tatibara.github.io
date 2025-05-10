@@ -22,6 +22,13 @@ const Recommendations = () => (
       <Slide {...properties}>
         <div className="each-fade">
           <Recommendation
+            quote="It was really a pleasure working with Tatiana, she was always focused and highly motivated about coding and solving our many problems. Furthermore she fostered our newly established community of practice and shared her knowledge with us."
+            author="Susanne Donner"
+            position="Team Lead at DHL IT Services"
+          />
+        </div>
+        <div className="each-fade">
+          <Recommendation
             quote="What was amazing to me, Tatiana always comprehended instructions
         quickly and was flexible when changes had to be made in the original plan."
             author="Mariola Król"
